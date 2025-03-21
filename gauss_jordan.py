@@ -37,6 +37,5 @@ def gauss_jordan(A, b):
 
     # La solución está en la última columna de la matriz aumentada
     x = Ab[:, -1]
-    print("\nSolución del sistema:")
-    print(x)
+   
     return x

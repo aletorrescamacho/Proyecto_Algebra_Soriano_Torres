@@ -16,6 +16,12 @@ def lu_decomposition(A):
         P, L, U = lu(A)
         print("\nMatriz P (Permutación):")
         print(P)
+
+        # Calcular la matriz PA
+        PA = np.dot(P, A)
+        print("\nMatriz PA (Producto de P y A):")
+        print(PA)
+
         print("\nMatriz L (Triangular Inferior):")
         print(L)
         print("\nMatriz U (Triangular Superior):")
